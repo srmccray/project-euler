@@ -8,7 +8,6 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 
 def is_palindrome(num):
-    # naive, only handles even number of digits
     chars = str(num)
     for idx in range(int(len(chars)/2)):
         if chars[idx] != chars[-1 - idx]:
